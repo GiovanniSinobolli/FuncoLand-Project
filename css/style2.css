@@ -1,0 +1,98 @@
+#background{
+    margin: 0;
+    padding-bottom: 0px;
+}
+
+#AUbackground {
+    position: relative;
+    margin: 0;
+    size: 100vh;
+    z-index: -100;
+}
+
+#AUbackground img{
+    position: static;
+    width: 100%;
+    margin: 0px 0px -4px 0px;
+    z-index: 2;
+}
+
+#fachada{
+    margin: 0;
+    size: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+#fachada img{
+    position: relative;
+    max-width: 70%;
+    height: auto;
+    z-index: 4;
+    border-radius: 1.25em;
+}
+
+#aboutUStexto {
+    margin: 0;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 50vw 44vw;
+    grid-template-rows: 15.63em 15.63em;
+    align-content: space-between;
+    justify-content: center;
+    justify-items: center;
+}
+
+#aboutUStexto h1 {
+    position: static;
+    z-index: 4;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    color: white;
+    font-family: cursive;
+    padding-top: 30px;
+}
+
+#aboutUStexto p {
+    position: static;
+    z-index: 4;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    color: white;
+    font-family: cursive;
+    padding: 80px 10px;
+    text-align: center;
+}
+
+.contact{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50vw 44vw;
+    grid-template-rows: 15.63em 15.63em;
+    position: absolute;
+}
+
+#textleft{
+    color: #ffffff;
+    font-family: cursive;
+    padding: 30px 10px;
+    text-align: center;
+    white-space: none;
+}
+
+#rightpart img{
+    border-radius: 2.50em;
+}
+
+#rightpart{
+    padding-top: 2.81em;
+    margin: 0;
+}
+

@@ -1,0 +1,172 @@
+.grade1 {
+    display: grid;
+    z-index: 100;
+    position: relative;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 63vh 67vh;
+    padding-left: 15px;
+    justify-content: center;
+    margin: 0;
+}
+
+.grade1 a {
+    text-decoration: none;
+    margin: 0;
+    font-size: 1.69em;
+    font-family: 'itc_avant_garde_gothicBdOb';
+    font-weight: bold;
+    display: flex;
+    transition: 0.3s;
+    border-radius: 20px;
+    width: 10.56em;
+    height: 2.56em;
+    color: #ffffff;
+    background-color: #4ca22e;
+    justify-content: center;
+    align-items: center;
+}
+
+.grade1 a:hover {
+    box-shadow: 0 0 20px 5px rgba(41, 232, 3, 0.5);
+}
+
+#merch1{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+#merch1 figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0;
+    
+}
+
+#merch1 img{
+    max-width: 38vh;
+    height: auto;
+    border-radius: 15px;
+}
+
+/** CONSOLE 2**/
+
+#merch2{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+#merch2 figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 25px;
+    
+}
+
+#merch2 img{
+    max-width: 38vh;
+    height: auto;
+    border-radius: 15px;
+}
+
+/** CONSOLE 3**/
+
+#merch3{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+#merch3 figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 25px;
+    
+}
+
+#merch3 img{
+    max-width: 38vh;
+    height: auto;
+    border-radius: 15px;
+}
+
+.grade2{
+    display: grid;
+    z-index: 100;
+    position: relative;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 70vh;
+    padding-left: 15px;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.grade2 h3, h4{
+    text-decoration: none;
+    margin: 0;
+    font-size: 27px;
+    font-family: 'itc_avant_garde_gothicBdOb';
+    font-weight: bold;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+.grade2 a:hover {
+    box-shadow: 0 0 20px 5px rgba(41, 232, 3, 0.5);
+}
+
+#photoleft{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+#photoleft img{
+    max-width: 50vh;
+    height: auto;
+    border-radius: 15px;
+}
+
+#sendbutton{
+    background-color: white;
+    font-family: 'itc_avant_garde_gothicBdOb';
+    border-radius: 10px;
+}
+
+#popup-message {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 18.75em;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+}
+
+#popup-message button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#popup-message button:hover {
+    background-color: #0056b3;
+}
+

@@ -1,0 +1,127 @@
+#shopBackground {
+    position: relative;
+    margin: 0;
+    size: 100vh;
+    z-index: -100;
+}
+
+#shopBackground img{
+    position: absolute;
+    width: 100%;
+    margin: 0px 0px -4px 0px;
+    z-index: 2;
+}
+
+.grade {
+    display: grid;
+    z-index: 100;
+    position: relative;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 67vh 67vh;
+    padding-left: 15px;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#console1{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+#console1 img{
+    max-width: 38vh;
+    height: auto;
+    border-radius: 15px;
+}
+
+/** CONSOLE 2**/
+
+#console2{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+#console2 img{
+    max-width: 38vh;
+    height: auto;
+    border-radius: 15px;
+}
+
+/** CONSOLE 3**/
+
+#console3{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+#console3 img{
+    max-width: 38vh;
+    height: auto;
+    border-radius: 15px;
+}
+
+/** CONSOLE 4**/
+
+#console4{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+#console4 img{
+    max-width: 38vh;
+    height: auto;
+    border-radius: 15px;
+}
+
+/** CONSOLE 5**/
+
+#console5{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+#console5 img{
+    max-width: 38vh;
+    height: auto;
+    border-radius: 15px;
+}
+
+/** CONSOLE 6**/
+
+#console6{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+#console6 img{
+    max-width: 38vh;
+    height: auto;
+    border-radius: 15px;
+}
+
+.grade a {
+    text-decoration: none;
+    margin: 0;
+    font-size: 1.69em;
+    font-family: 'itc_avant_garde_gothicBdOb';
+    font-weight: bold;
+    display: flex;
+    transition: 0.3s;
+    border-radius: 20px;
+    width: 10.56em;
+    height: 2.56em;
+    color: #ffffff;
+    background-color: #4ca22e;
+    justify-content: center;
+    align-items: center;
+}
+
+.grade a:hover {
+    box-shadow: 0 0 20px 5px rgba(41, 232, 3, 0.5);
+}

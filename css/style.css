@@ -1,0 +1,310 @@
+/**NOT RESPONSIVE, NOT ENOUGH TIME FOR IT**/
+
+@font-face {
+    font-family: 'itc_avant_garde_gothicBdOb';
+    src: url('customfont-webfont.woff2') format('woff2'),
+         url('customfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: white;
+    margin: 0px;
+    
+}
+
+header{
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#funcolandLogo{
+    height: 8.13em;
+    width: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#funcolandLogo:hover {
+    opacity: 0.5;
+}
+
+header li {
+    list-style: none;
+    margin: auto;
+    font-size: 1.88em;
+    font-family: 'itc_avant_garde_gothicBdOb';
+    font-weight: bold;
+}
+
+header li a {
+    text-decoration: none;
+    padding: 0 20px 0;
+    color: white;
+    transition: 0.3s ease-out;
+}
+
+header li a:hover{
+    color: #a86a92;
+}
+
+#centralphoto{
+    position: relative;
+    margin: 0;
+    size: 100vh;
+}
+
+#centralphoto img{
+    position: static;
+    width: 100%;
+    margin: 0px 0px -4px 0px;
+}
+
+.slots{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    background-image: linear-gradient(#163263, #142f5e, #141414);
+    padding: 25px 0px 75px 0px;
+}
+
+.slots a {
+    text-decoration: none;
+    margin: auto;
+    font-size: 1.3em;
+    font-family: 'itc_avant_garde_gothicBdOb';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 2em;
+    width: 88%;
+    height: 2.50em;
+    align-items: center;
+    opacity: 1;
+}
+
+.slots a:hover{
+    transition: 0.3s;
+    opacity: 0.5;
+}
+
+#button1 a{
+    background-color: #f7c205;
+    color: white;
+}
+
+#button4 a{
+    background-color: #e53031;
+    color: white;
+}
+
+#button2 a{
+    background-color: #029851;
+    color: white;
+}
+
+#button3 a{
+    background-color: #0172ba;
+    color: white;
+}
+
+.slots a:hover{
+    color: #a86a92;
+}
+
+#button1 img{
+    width: 100%;
+    height: auto;
+}
+#button2 img{
+    width: 100%;
+    height: auto;
+}
+#button3 img{
+    width: 100%;
+    height: auto;
+}
+#button4 img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: #141414;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding-bottom: 30px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-family: "itc_avant_garde_gothicBdOb";
+}
+
+footer h3{
+    color: white;
+    font-family: "itc_avant_garde_gothicBdOb";
+}
+
+#OURSERVICES{
+    display: flex;
+    padding: 10px 0px 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#OURSERVICES h3{
+    font-size: 2em;
+    margin: 95px 0px 20px 0px;
+}
+
+#OURSERVICES a{
+    padding: 5px;
+    opacity: 1;
+}
+
+#OURSERVICES a:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#CUSTOMER-COMPLAINTS h3{
+    white-space: pre-line;
+    margin: 0px 0px 20px;
+}
+
+#CUSTOMER-COMPLAINTS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+/* Services and Customer Complaints */
+#OURSERVICES, #CUSTOMER-COMPLAINTS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#OURSERVICES h3, #CUSTOMER-COMPLAINTS h3 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+/* Media Queries */
+
+/* Mobile: max-width 767px (Target Android phones and small screens) */
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #funcolandLogo {
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    header li {
+        font-size: 18px;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .slots {
+        grid-template-columns: 1fr 1fr; /* Two columns for smaller screens */
+        gap: 15px;
+    }
+
+    .slots a {
+        font-size: 18px;
+        height: 40px;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    #OURSERVICES h3, #CUSTOMER-COMPLAINTS h3 {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    #centralphoto img {
+        height: auto;
+    }
+
+    /* Adjusting padding for buttons on mobile */
+    .slots a {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    #button1 a, #button2 a, #button3 a, #button4 a {
+        height: 50px;
+        padding: 10px;
+    }
+}
+
+/* Tablet: max-width 1024px */
+@media (max-width: 1024px) {
+    header li {
+        font-size: 22px;
+    }
+
+    .slots {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .slots a {
+        font-size: 22px;
+        height: 50px;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #OURSERVICES h3 {
+        font-size: 30px;
+    }
+
+    #CUSTOMER-COMPLAINTS h3 {
+        font-size: 20px;
+    }
+}
+
+/* Desktop: min-width 1025px */
+@media (min-width: 1025px) {
+    .slots {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    #OURSERVICES h3 {
+        font-size: 35px;
+    }
+
+    #CUSTOMER-COMPLAINTS h3 {
+        font-size: 25px;
+        padding-top: 2em;  
+    }
+}
+
